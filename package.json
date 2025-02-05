@@ -2,7 +2,9 @@
   "name": "authentication-backend",
    "description": "Node js with mongodb backend authentication project",
   "scripts": {
-    "dev": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "echo 'No build step required for backend'"
   },
   "type": "module",
   
